@@ -12,7 +12,7 @@ version: 0.1.0
 schema: v1
 models:
   - name: Mercury Coder
-    provider: openai
+    provider: openrouter
     model: inception/mercury-coder
     apiBase: https://openrouter.ai/api/v1
     apiKey: ${{ secrets.OPENROUTER_API_KEY }}

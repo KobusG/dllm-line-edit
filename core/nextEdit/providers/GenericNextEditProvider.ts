@@ -19,7 +19,7 @@ export class GenericNextEditProvider extends BaseNextEditModelProvider {
 
   extractCompletion(message: string): string {
     const fenced = message.match(/```(?:[\w+-]+)?\s*\n?([\s\S]*?)\n?```/);
-    return (fenced?.[1] ?? message).trim();
+    return fenced?.[1] ?? message;
   }
 
   buildPromptContext(context: ModelSpecificContext) {
