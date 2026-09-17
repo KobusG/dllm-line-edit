@@ -1,27 +1,26 @@
 {
-  "name": "continue",
+  "name": "dllm-line-edit",
   "icon": "media/icon.png",
-  "author": "Continue Dev, Inc",
+  "author": "dllm-line-edit contributors",
   "version": "1.3.40",
   "repository": {
     "type": "git",
-    "url": "https://github.com/continuedev/continue"
+    "url": "https://github.com/KobusG/dllm-line-edit"
   },
   "extensionKind": [
     "ui",
     "workspace"
   ],
   "bugs": {
-    "url": "https://github.com/continuedev/continue/issues",
-    "email": "nate@continue.dev"
+    "url": "https://github.com/KobusG/dllm-line-edit/issues"
   },
-  "homepage": "https://continue.dev",
-  "qna": "https://github.com/continuedev/continue/issues/new/choose",
+  "homepage": "https://github.com/KobusG/dllm-line-edit",
+  "qna": "https://github.com/KobusG/dllm-line-edit/issues/new/choose",
   "license": "Apache-2.0",
-  "displayName": "Continue - open-source AI code agent",
+  "displayName": "dLLM Line Edit",
   "pricing": "Free",
-  "description": "The leading open-source AI code agent",
-  "publisher": "Continue",
+  "description": "Configurable next-edit predictions for diffusion language models",
+  "publisher": "dllm-line-edit",
   "engines": {
     "vscode": "^1.70.0",
     "node": ">=20.20.1"
